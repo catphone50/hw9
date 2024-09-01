@@ -1,0 +1,27 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  max-width: 450px;
+  margin: auto;
+}
+
+.error {
+  margin: 0px 5px;
+  color: red;
+  font-size: 12px;
+}
+
+.formContainer button {
+  background-color: rgb(114, 114, 230);
+  border: 1px solid rgb(5, 5, 63);
+  padding: 7px 0;
+}
+
+.formContainer input {
+  background-color: rgba(210, 210, 241, 0.5);
+  border: 1px solid rgb(5, 5, 63);
+  color: rgb(5, 5, 63);
+  padding: 7px;
+  border-radius: 4px;
+}
